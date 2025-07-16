@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="tic.css" />
+  </head>
+  <body>
+    <main>
+      <h1>TIC-TAC-TOE</h1>
+      <div class="container">
+        <div class="game">
+          <!-- 9 Tic-Tac-Toe boxes -->
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button id="re">Restart</button>
+        </div>
+
+        <!-- Restart button -->
+      </div>
+
+      <!-- Win/Draw Display -->
+      <div class="afterwin" id="hide">
+        <img src="thropy.png" alt="trophy" class="win" />
+        <img src="draw.png" alt="draw" class="draw" />
+        <p class="winner"></p>
+        <button class="newgame">New Game</button>
+      </div>
+    </main>
+
+    <script src="tic.js"></script>
+  </body>
+</html>
